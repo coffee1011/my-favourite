@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    align: center;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: darkred;
+    z-index: 99999;
+}
+
+.link {
+    float: right;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+
